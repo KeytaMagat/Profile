@@ -46,7 +46,7 @@ export interface ProfileData {
 }
 
 export const profileData: ProfileData = {
-  name: "Gadiel Dave A. Tagam",
+  name: "John Smith",
   title: "Front-end Developer & UI/UX Designer",
   bio: "Passionate about creating beautiful, functional, and user-centered digital experiences. I combine technical expertise with creative design to build innovative solutions.",
   about: {
