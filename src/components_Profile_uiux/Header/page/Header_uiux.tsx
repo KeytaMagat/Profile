@@ -4,7 +4,7 @@ import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Header = () => {
+const Header_uiux = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
@@ -35,28 +35,10 @@ const Header = () => {
                 profile-uiux
               </button>
               <button
-                onClick={() => scrollToSection('hero')}
+                onClick={() => navigate('/')}
                 className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
-                Home
-              </button>
-              <button
-                onClick={() => scrollToSection('about')}
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
-              >
-                About
-              </button>
-              <button
-                onClick={() => scrollToSection('projects')}
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
-              >
-                Projects
-              </button>
-              <button
-                onClick={() => scrollToSection('contact')}
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
-              >
-                Contact
+                Profile
               </button>
             </div>
           </div>
@@ -109,4 +91,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header_uiux;
