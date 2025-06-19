@@ -12,8 +12,8 @@ const Bottom_Navbar = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="fixed bottom-10 z-0 bg-[#040404]">
-            <Menubar className="flex justify-between items-center w-full max-w-4xl mx-auto border border-[#7C7C7C] p-2 rounded-4xl">
+        <div className="fixed bottom-10 z-0 ">
+            <Menubar className="flex justify-between items-center w-full max-w-4xl mx-auto border border-[#7C7C7C] p-2 rounded-4xl bg-[#040404]">
                 <MenubarMenu>
                     <MenubarTrigger asChild>
                         <Button onClick={() => navigate('/profile-uiux')}
