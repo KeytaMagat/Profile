@@ -1,46 +1,38 @@
 import React from "react";
-import { Github, Linkedin, Mail, Download } from 'lucide-react';
-import { profileData } from "@/data/profileData";
+import { Github, Linkedin, Mail } from 'lucide-react';
 import GlassIcons from "@/blocks/Components/GlassIcons/GlassIcons";
 
 const Social_Links = () => {
+    // Function to handle link clicks
+    const handleLinkClick = (url: string | URL | undefined) => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    };
 
-        // update with your own icons and colors
-        const items = [
-        { icon: <Github />, color: 'red', label: 'Github' },
-        { icon: <Linkedin />, color: 'red', label: 'Linkedin' },
-        { icon: <Mail />, color: 'red', label: 'GMail' },
-        // { icon: <FiCloud />, color: 'indigo', label: 'Weather' },
-        // { icon: <FiEdit />, color: 'orange', label: 'Notes' },
-        // { icon: <FiBarChart2 />, color: 'green', label: 'Stats' },
-        ];
+    // Define the items with onClick handlers
+    const items = [
+        { 
+            icon: <Github />, 
+            color: 'red', 
+            label: 'Github', 
+            onClick: () => handleLinkClick("https://github.com/KeytaMagat/Profile") 
+        },
+        { 
+            icon: <Linkedin />, 
+            color: 'red', 
+            label: 'Linkedin', 
+            onClick: () => handleLinkClick("http://www.linkedin.com/in/gadieldavetagam") 
+        },
+        { 
+            icon: <Mail />, 
+            color: 'red', 
+            label: 'Mail', 
+            onClick: () => handleLinkClick("mailto:tagam.gadieldave@gmail.com") 
+        },
+    ];
+
     return (
         <div className="w-full h-fit flex bottom-30 right-50 justify-between">
-            {/* <a
-              href={profileData.social.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              <Github className="h-6 w-6" />
-            </a>
-            <a
-              href={profileData.social.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              <Linkedin className="h-6 w-6" />
-            </a>
-            <a
-              href={`mailto:${profileData.contact.email}`}
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              <Mail className="h-6 w-6" />
-            </a> */}
-            
-            <GlassIcons items={items} className="custom-class"/>
-            
+            <GlassIcons items={items} className="custom-class" />
         </div>
     );
 };

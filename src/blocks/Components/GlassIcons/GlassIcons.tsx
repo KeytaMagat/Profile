@@ -1,7 +1,3 @@
-/*
-	Installed from https://reactbits.dev/ts/tailwind/
-*/
-
 import React from "react";
 
 export interface GlassIconsItem {
@@ -9,6 +5,7 @@ export interface GlassIconsItem {
   color: string;
   label: string;
   customClass?: string;
+  onClick?: () => void; // Updated to include onClick
 }
 
 export interface GlassIconsProps {
@@ -44,9 +41,8 @@ const GlassIcons: React.FC<GlassIconsProps> = ({ items, className }) => {
           key={index}
           type="button"
           aria-label={item.label}
-          className={`relative bg-transparent outline-none w-[3em] h-[3em] [perspective:24em] [transform-style:preserve-3d] [-webkit-tap-highlight-color:transparent] group ${
-            item.customClass || ""
-          }`}
+          className={`relative bg-transparent outline-none w-[3em] h-[3em] [perspective:24em] [transform-style:preserve-3d] [-webkit-tap-highlight-color:transparent] group ${item.customClass || ""}`}
+          onClick={item.onClick} // Call the onClick function here
         >
           <span
             className="absolute top-0 left-0 w-full h-full rounded-[1em] block transition-[opacity,transform] duration-300 ease-[cubic-bezier(0.83,0,0.17,1)] origin-[100%_100%] rotate-[15deg] group-hover:[transform:rotate(25deg)_translate3d(-0.5em,-0.5em,0.5em)]"
@@ -63,7 +59,7 @@ const GlassIcons: React.FC<GlassIconsProps> = ({ items, className }) => {
             }}
           >
             <span
-              className="m-auto w-[1.5em] h-[1.5em] flex items-center justify-center text-red-300"
+              className="m-auto w-[1.2em] h-[1.5em] flex items-center justify-center text-red-300"
               aria-hidden="true"
             >
               {item.icon}
