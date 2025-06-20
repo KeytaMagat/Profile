@@ -12,14 +12,12 @@ const Hero_main = () => {
     <div className="flex w-full h-screen overflow-hidden bg-cover bg-top bg-no-repeat"
       style={{ backgroundImage: `url(${bg_image})` }} 
     >
-      <div className='flex justify-center w-full backdrop-blur-md backdrop-filter'>
-        <div className='flex flex-col w-1/4 border'>
+      <div className='relative flex justify-center w-full backdrop-blur-md backdrop-filter'>
+        <div className='absolute left-0 flex flex-col w-1/4 border'>
           <Title />
         </div>
-        <div className='flex flex-col w-1/2 justify-center items-center border'>        
           <Hero_image />
-        </div>
-        <div className='flex flex-col w-1/4 border'>
+        <div className='absolute right-0 flex flex-col w-1/4 border'>
           <Name />
           <Social_Links />          
         </div>

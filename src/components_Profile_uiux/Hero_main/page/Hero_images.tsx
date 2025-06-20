@@ -1,11 +1,13 @@
 import React from 'react';
 import bg_image from '@/assets/bggdt.jpg';
+import Lanyard from '@/blocks/Components/Lanyard/Lanyard';
 
 const Hero_image = () => {
 
     return (
-        <div className='flex justify-center border w-full h-100'>
-        </div>
+        <>
+        <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
+        </>
     );
 
 }
