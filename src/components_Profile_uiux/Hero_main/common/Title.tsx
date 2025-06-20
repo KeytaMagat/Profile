@@ -12,7 +12,7 @@ const Title = () => {
   };
 
   return (
-    <section id="hero" className="absolute flex w-fit h-fit top-75 left-15">
+    <section id="hero" className="">
         <div className="text-center">
           
           <p className="text-2xl text-white mb-8">

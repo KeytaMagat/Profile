@@ -12,7 +12,7 @@ const Name = () => {
   };
 
   return (
-    <div className='absolute top-50 right-50'>
+    <div className='w-full top-50 right-50 border'>
       <span className=" text-8xl font-bold bg-gradient-to-r from-orange-500 to-red-600 bg-clip-text text-transparent h-80 flex flex-col justify-start">
         <p>{profileData.name1}</p>
         <p>{profileData.name2}</p>

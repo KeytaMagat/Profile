@@ -5,7 +5,7 @@ import { profileData } from "@/data/profileData";
 const Social_Links = () => {
 
     return (
-        <div className="absolute flex bottom-30 right-50 justify-center space-x-15">
+        <div className="w-full flex bottom-30 right-50 justify-between">
             <a
               href={profileData.social.github}
               target="_blank"
