@@ -6,6 +6,7 @@ import {
     MenubarTrigger
 } from '@radix-ui/react-menubar';
 import { useNavigate } from 'react-router-dom';
+import StarBorder from '@/blocks/Animations/StarBorder/StarBorder';
 
 const Bottom_Navbar = () => {
 

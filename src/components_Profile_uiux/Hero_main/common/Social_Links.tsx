@@ -31,7 +31,7 @@ const Social_Links = () => {
     ];
 
     return (
-        <div className="w-full h-fit flex bottom-30 right-50 justify-between">
+        <div className="absolute w-fit h-fit flex bottom-20 right-50 justify-between z-1">
             <GlassIcons items={items} className="custom-class" />
         </div>
     );
