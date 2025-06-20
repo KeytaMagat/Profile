@@ -4,7 +4,7 @@ import bg_image from '@/assets/bggdt.jpg';
 const Hero_image = () => {
 
     return (
-        <div className=' border w-full h-100'>
+        <div className='flex justify-center border w-full h-100'>
 
         </div>
     );
