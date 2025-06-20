@@ -5,7 +5,6 @@ const Hero_image = () => {
 
     return (
         <div className='flex justify-center border w-full h-100'>
-
         </div>
     );
 
