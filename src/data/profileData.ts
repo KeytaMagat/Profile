@@ -51,7 +51,7 @@ export const profileData: ProfileData = {
   name1: "Gadiel",
   name2: "Dave",
   name3: "Tagam",
-  title: "Front-end Developer & UI/UX Designer",
+  title: "Front-end Developer | UI/UX | Designer",
   bio: "Passionate about creating beautiful, functional, and user-centered digital experiences. I combine technical expertise with creative design to build innovative solutions.",
   about: {
     story: [

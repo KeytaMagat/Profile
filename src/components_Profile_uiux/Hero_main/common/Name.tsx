@@ -10,7 +10,7 @@ const Name = () => {
         <p>{profileData.name2}</p>
         <p>{profileData.name3}</p>
       </span> */}
-      <span className="absolute font-sans  text-[900px] bg-gradient-to-r from-orange-500 to-red-600 bg-clip-text text-transparent w-fit h-fit -top-90 font-sans">
+      <span className="absolute font-bold text-[1000px] bg-gradient-to-r from-orange-500 to-red-600 bg-clip-text text-transparent w-fit h-fit -top-130 ">
         GDT
       </span>
     </div>

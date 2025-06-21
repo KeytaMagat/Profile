@@ -4,7 +4,6 @@ import fg_image from '@/assets/bggdt.png';
 import Name from '../common/Name';
 import Social_Links from '../common/Social_Links';
 import Title from '../common/Title';
-import ClickSpark from '@/blocks/Animations/ClickSpark/ClickSpark';
 
 const Hero_main = () => {
 
@@ -24,6 +23,7 @@ const Hero_main = () => {
             <Name />
             <Social_Links />          
           </div> */}
+          <Title />
           <Name />
           <Social_Links/>
         </div>

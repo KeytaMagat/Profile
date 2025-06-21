@@ -7,7 +7,7 @@ import bg_image from '@/assets/bggdt.jpg';
 
 function Profile_uiux() {
   return (
-      <div className="min-h-screen flex flex-col items-center bg-[#040404]">
+      <div className="min-h-screen flex flex-col items-center bg-[#040404] font-sans">
         <Hero_main />
         <Hero_uiux />
         <Bottom_Navbar />

@@ -22,8 +22,8 @@ module.exports = {
         '1200px': '1200px'
       },
       fontFamily: {
-        gambetta: ['Gambetta', serif], 
-        generalsans: ['General Sans', sans-serif],
+        gambetta: ['"Gambetta"', "serif"], 
+        generalsans: ['"General Sans"', "sans-serif"],
       },
     },
     plugins: [],

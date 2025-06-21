@@ -6,14 +6,14 @@ import {
     MenubarTrigger
 } from '@radix-ui/react-menubar';
 import { useNavigate } from 'react-router-dom';
-import StarBorder from '@/blocks/Animations/StarBorder/StarBorder';
 
 const Bottom_Navbar = () => {
 
     const navigate = useNavigate();
 
     return (
-        <div className="fixed bottom-10 z-0 ">
+        <div className="fixed bottom-10 z-1">
+            
             <Menubar className="flex justify-between items-center w-full max-w-4xl mx-auto border border-[#7C7C7C] p-2 rounded-4xl bg-[#040404]">
                 <MenubarMenu>
                     <MenubarTrigger asChild>
