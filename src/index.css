@@ -2,9 +2,10 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+@import url("https://api.fontshare.com/v2/css?f[]=gambetta@300,301,400,401,500,501,600,601,700,701,1,2&f[]=general-sans@200,201,300,301,400,401,500,501,600,601,700,701,1,2&display=swap");
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Gambetta', 'General Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 

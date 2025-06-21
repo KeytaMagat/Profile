@@ -3,7 +3,6 @@
 #root {
   @apply
   flex
-  w
   overflow-scroll
   overscroll-x-none
 }
