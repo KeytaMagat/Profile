@@ -8,9 +8,10 @@ import bg_image from '@/assets/bggdt.jpg';
 function Profile_uiux() {
   return (
       <div className="w-full h-screen flex flex-col items-center bg-[#040404] font-sans       
-        overflow-y-scroll">
-          <div className="w-full snap-center snap-always snap-proximitly"><Hero_main /></div>
-          <div className="w-full snap-center snap-always snap-proximitly"><Hero_uiux /></div>
+        overflow-y-scroll scroll-smooth snap-y snap-mandatory"
+      >
+        <div className="w-full snap-start snap-always "><Hero_main /></div>
+        <div className="w-full snap-start snap-always"><Hero_uiux /></div>
         <Bottom_Navbar />
       </div>
   );
