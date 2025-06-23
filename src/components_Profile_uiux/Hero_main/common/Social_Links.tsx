@@ -14,7 +14,7 @@ const Social_Links = () => {
             icon: <Github />, 
             color: 'red', 
             label: 'Github', 
-            onClick: () => handleLinkClick("https://github.com/KeytaMagat/Profile") 
+            onClick: () => handleLinkClick("https://github.com/KeytaMagat") 
         },
         { 
             icon: <Linkedin />, 
@@ -31,7 +31,7 @@ const Social_Links = () => {
     ];
 
     return (
-        <div className="absolute w-fit h-fit flex bottom-20 right-50 justify-between z-1">
+        <div className="absolute w-fit h-fit flex bottom-3 right-40 justify-between z-1">
             <GlassIcons items={items} className="custom-class" />
         </div>
     );
