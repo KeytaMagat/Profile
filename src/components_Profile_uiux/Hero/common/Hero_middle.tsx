@@ -20,7 +20,7 @@ const Hero_middle = () => {
 
   return (
     <div className="relative flex flex-1/3 flex-col gap-y-2 w-full h-full text-white">
-          <div className="flex flex-row w-full h-fit p-2 pl-3 justify-between items-center bg-white/20 rounded-lg">
+          <div className="flex flex-row w-full h-fit p-2 pl-3 justify-between items-center bg-white/20 rounded-lg ">
             <p className="text-lg font-semibold">Projects</p>
             <div className="space-x-1">
               <Button variant="secondary" size="icon" className="size-7">
