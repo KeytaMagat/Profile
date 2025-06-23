@@ -13,14 +13,14 @@ const Name = () => {
       </span> */}
       <img src={fg_image} alt="" className='absolute z-1 w-full'/>
 
-      <span className="absolute font-bold text-[1050px] w-fit h-fit -top-115
-        bg-gradient-to-r from-orange-500 to-red-600 bg-clip-text text-transparent"
+      <span className="absolute font-bold text-[950px] w-fit h-fit -top-105
+        bg-gradient-to-r from-[#FC5C04]/10 to-[#d50909]/50 bg-clip-text text-transparent"
       >
         {profileData.shortened}
       </span>
-      <div className='absolute flex flex-row gap-x-150 justify-center w-full bottom-60 z-1     
+      <div className='absolute flex flex-row gap-x-155 justify-center w-full bottom-50 z-1     
         text-lg font-semibold
-        bg-gradient-to-r from-orange-300 to-red-400 bg-clip-text text-transparent'
+        bg-gradient-to-r from-[#FC5C04] to-[#d50909] bg-clip-text text-transparent'
       >
         <p>{profileData.name1}</p>
         <p>{profileData.name2}</p>
