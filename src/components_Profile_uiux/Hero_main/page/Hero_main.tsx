@@ -11,10 +11,6 @@ const Hero_main = () => {
       <div className="flex w-full h-screen overflow-hidden bg-cover bg-top bg-no-repeat"
         style={{ backgroundImage: `url(${bg_image})` }} 
       >
-        <div className="absolute w-full h-screen bg-cover bg-top bg-no-repeat z-1"
-        style={{ backgroundImage: `url(${fg_image})` }}
-        />
-
         <div className='relative flex justify-center w-full'>
           {/* <div className='absolute left-0 flex flex-col w-1/4 border'>
             <Title />

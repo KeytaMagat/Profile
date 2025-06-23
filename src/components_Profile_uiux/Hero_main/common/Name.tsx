@@ -1,5 +1,6 @@
 import React from 'react';
 import { profileData } from '@/data/profileData';
+import fg_image from '@/assets/bggdt.png';  
 
 const Name = () => {
 
@@ -10,7 +11,9 @@ const Name = () => {
         <p>{profileData.name2}</p>
         <p>{profileData.name3}</p>
       </span> */}
-      <span className="absolute font-bold text-[950px] w-fit h-fit -top-105
+      <img src={fg_image} alt="" className='absolute z-1 w-full'/>
+
+      <span className="absolute font-bold text-[1050px] w-fit h-fit -top-115
         bg-gradient-to-r from-orange-500 to-red-600 bg-clip-text text-transparent"
       >
         {profileData.shortened}

@@ -12,7 +12,7 @@ const Title = () => {
   };
 
   return (
-    <section id="hero" className="absolute bottom-15 left-50 z-1 ">
+    <section id="hero" className="absolute bottom-15 left-50 z-2 ">
         {/* <div className="text-start p-2 pl-4 flex flex-col gap-y-2 w-fit 
         rounded-[1em] bg-[hsla(0,0%,100%,0.15)] backdrop-blur-[.35em]"> */}
         <div className='w-100 space-y-2'>
