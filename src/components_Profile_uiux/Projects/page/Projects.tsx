@@ -16,10 +16,10 @@ import { Button } from "@/components/ui/button";
 //lucide_icon
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 
-const Hero_middle = () => {
+const Projects = () => {
 
   return (
-    <div className="relative flex flex-1/3 flex-col gap-y-2 w-full h-full text-white">
+    <div className="relative flex flex-1/3 flex-col gap-y-2 w-full h-screen text-white p-2">
           <div className="flex flex-row w-full h-fit p-2 pl-3 justify-between items-center bg-white/20 rounded-lg ">
             <p className="text-lg font-semibold">Projects</p>
             <div className="space-x-1">
@@ -45,4 +45,4 @@ const Hero_middle = () => {
   );
 }; 
 
-export default Hero_middle;
+export default Projects;

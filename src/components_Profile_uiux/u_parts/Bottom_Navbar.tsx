@@ -14,19 +14,24 @@ const Bottom_Navbar = () => {
     return (
         <div className="fixed bottom-10 z-1">
             
-            <Menubar className="flex justify-between items-center w-full max-w-4xl mx-auto border border-[#7C7C7C] p-2 rounded-4xl bg-[#040404]">
+            <Menubar className="flex justify-between items-center w-full max-w-4xl mx-auto p-2 rounded-4xl 
+                border border-[#7C7C7C30] hover:border-[#7c7c7c8a]
+                bg-[#04040430] hover:bg-[#040404] 
+                text-[#ffffff30] hover:text-[#ffffff] 
+                hover:shadow-[inset_-12px_-8px_40px_#ffffff20]
+                ">
                 <MenubarMenu>
                     <MenubarTrigger asChild>
                         <Button onClick={() => navigate('/profile-uiux')}
                             variant="ghost" 
-                            className="text-white hover:bg-[#2C2C2C] hover:text-white rounded-3xl">
+                            className="hover:bg-[#2C2C2C] hover:text-white rounded-3xl">
                             profile-uiux
                         </Button>
                     </MenubarTrigger>
                     <MenubarTrigger asChild>
                         <Button onClick={() => navigate('/')}
                             variant="ghost" 
-                            className="text-white hover:bg-[#2C2C2C] hover:text-white rounded-3xl">
+                            className="hover:bg-[#2C2C2C] hover:text-white rounded-3xl">
                             profile
                         </Button>
                     </MenubarTrigger>
