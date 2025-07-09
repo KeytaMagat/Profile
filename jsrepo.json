@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/jsrepo@2.4.1/schemas/project-config.json",
-  "repos": ["@ieedan/std"],
+  "repos": ["https://reactbits.dev/ts/tailwind", "@ieedan/std"],
   "includeTests": false,
   "includeDocs": false,
   "watermark": true,
@@ -10,6 +10,6 @@
   },
   "paths": {
     "*": "./src/blocks",
-    "ts": "./src/ts"
+    "ts": "./src/blocks"
   }
 }

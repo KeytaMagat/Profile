@@ -22,6 +22,8 @@ export interface Education {
 }
 
 export interface ProfileData {
+  shortened: string;
+  name: string;
   name1: string;
   name2: string;
   name3: string;
@@ -48,6 +50,8 @@ export interface ProfileData {
 }
 
 export const profileData: ProfileData = {
+  shortened: "GDT",
+  name: "Gadiel Dave Tagam",
   name1: "Gadiel",
   name2: "Dave",
   name3: "Tagam",
