@@ -1,0 +1,6 @@
+@import 'Tailwindcss';
+
+.abt_bg {
+    @apply
+    bg-white/10
+}
