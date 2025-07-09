@@ -12,8 +12,8 @@ function App() {
   return (
     <TooltipProvider>
       <BrowserRouter>
+        <Analytics />
         <Routes>
-          <Analytics />
           <Route path="/" element={<Profile />} />
           <Route path="/profile-uiux" element={<Profile_uiux />} />
         </Routes>
