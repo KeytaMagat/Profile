@@ -1,21 +1,11 @@
 import React from "react";
 
 //shadcn_ui
-import {
-  Pagination,
-  PaginationContent,
-  PaginationEllipsis,
-  PaginationItem,
-  PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
-} from "@/components/ui/pagination"
 import { Toggle } from "@/components/ui/toggle"
 import { Button } from "@/components/ui/button";
 
 //lucide_icon
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
-import { Carousel_Samp } from "../common/Carousel";
 const Projects = () => {
 
   return (
@@ -35,14 +25,13 @@ const Projects = () => {
           <div className="w-full h-full flex rounded-lg border "></div>
           <div className="w-full h-full flex rounded-lg border "></div>
           <div className="w-full h-full flex rounded-lg border "></div> */}
-          {/* <div className="grid grid-cols-2 grid-rows-2 gap-2 h-full">
+          <div className="grid grid-cols-2 grid-rows-2 gap-2 h-full">
             <div className="col-start-1 bg-white/20 rounded-lg"></div>
             <div className="col-start-2 bg-white/20 rounded-lg"></div>
             <div className="col-start-1 bg-white/20 rounded-lg"></div>
             <div className="col-start-2 bg-white/20 rounded-lg"></div>
-          </div> */}
+          </div>
 
-          <Carousel_Samp />
     </div>
   );
 }; 

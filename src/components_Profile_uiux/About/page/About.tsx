@@ -45,7 +45,7 @@ return (
                     </ResizablePanelGroup>
                 </ResizablePanel>
             </ResizablePanelGroup>
-            {/* <Projects /> */}
+            <Projects />
         </div>
     );
 }  
