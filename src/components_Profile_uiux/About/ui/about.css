@@ -1,6 +1,12 @@
 @import 'tailwindcss';
 
-.abt_bg {
+.abt_box {
     @apply
     bg-white/10
+    rounded-lg
+
+    scale-100
+    hover:scale-98
+
+    transition-all
 }

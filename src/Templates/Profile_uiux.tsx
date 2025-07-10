@@ -23,7 +23,7 @@ function Profile_uiux() {
       >
         <div className="w-full snap-start snap-always"><Hero_main /></div>
         <div className="w-full snap-start snap-always"><About /></div>
-        <div className="w-full snap-start snap-always"><Projects /></div>
+        {/* <div className="w-full snap-start snap-always"><Projects /></div> */}
         <Bottom_Navbar />
       </div>
     </div>
